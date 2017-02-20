@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 0.75em;
+    color: #333333;
+}
+
+body {
+    height: 2000px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+p {
+    margin-bottom: 1.33em;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0 0 15px 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 0 0 15px 0;
+}
+
+.wrap {
+    position: relative;
+    margin: 200px auto 0 auto;
+    width: 563px;
+    min-height: 790px;
+}
+
+main {
+    display: block;
+    margin: 33px 30px 0 30px;
+    max-height: 634px;
+    width: 460px;
+    overflow: hidden;
+}
+
+section:after, article:after, .wrap:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+footer {
+    margin: 10px 30px;
+    width: 460px;
+}
+
+footer p {
+    font-size: 0.75em;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.left-figure {
+    display: block;
+    float: left;
+}
+
+.right-figure {
+    display: block;
+    float: right;
+}
+
+article .left-figure img {
+     width: 209px;
+     height: 113px;
+     margin: 0 15px 10px 0;
+}
+
+article .right-figure img {
+    width: 140px;
+    height: 140px;
+    margin: 0 0 10px 15px;
+}
+
+.jokes-section img {
+    margin: 0 0 14px 0;
+    width: 192px;
+    height: 88px;
+}
+
+.sheet {
+    border: 2px solid black;
+    width: 519px;
+    height: 746px;
+    position: absolute;
+}
+
+.upper-sheet {
+    background: #ebebeb;
+}
+
+.middle-sheet {
+    top: 20px;
+    left: 20px;
+    background: #cccccc;
+}
+
+.lower-sheet {
+    top: 40px;
+    left: 40px;
+    background: #acacac;
+}
+
+.bookmark {
+    position: absolute;
+    height: 31px;
+    width: 106px;
+    border: 2px solid black;
+    top: 39px;
+    border-radius: 0 8px 8px 0;
+}
+
+.upper-sheet .bookmark {
+    background: #f68e56;
+    left: 492px;
+}
+
+.middle-sheet .bookmark {
+    background: #39b54a;
+    left: 460px;
+}
+
+.lower-sheet .bookmark {
+    background: #00aeef;
+    left: 428px;
+}
+
+.social-share {
+    border: 2px solid black;
+    background: #fbaf5d;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    height: 69px;
+    width: 86px;
+    margin: 0 0 150px 0;
+}
+
+.social-share p {
+    font-size: 1.333em;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.iconset {
+    display: block;
+    margin-bottom: 15px;
+    width: 86px;
+    height: 22px;
+}
+
+.social-share-button {
+    display: inline-block;
+    float: left;
+    width: 22px;
+    height: 22px;
+    margin: 0 0 0 5px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.facebook {
+    background-image: url("../img/facebook.png");
+}
+
+.twitter {
+    background-image: url("../img/twitter.png");
+}
+.instagram {
+    background-image: url("../img/instagram.png");
+}
